@@ -23,7 +23,7 @@ class TrainingConfig:
     BATCH_SIZE = 12
     LR = 2e-4
     NUM_WORKERS = 6
-    CODITIONAL = False
+    CONDITIONAL = False
 
 @dataclass
 class ModelConfig:
