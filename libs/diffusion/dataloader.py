@@ -140,9 +140,11 @@ class CondBuildDataset(Dataset):
         return sample
 
 
-def get_dataset(dataset_name='MNIST'):
+def get_dataset(dataset_name='MNIST', training_config=TrainingConfig):
 
-    size = TrainingConfig.IMG_SHAPE[-1]
+    size = training_config.IMG_SHAPE[-1]
+    conditional = training_config.CONDITIONAL
+
     transforms = TF.Compose(
         [
             TF.ToTensor(),
@@ -170,8 +172,11 @@ def get_dataset(dataset_name='MNIST'):
         dataset = datasets.ImageFolder(
             root="/kaggle/input/flowers-recognition/flowers", transform=transforms)
     elif dataset_name == "Seismic":
-        # dataset = BuildDataset("./data/patches_f3_v3", transform=transforms)
-        dataset = CondBuildDataset("./data/f3_patches100f3v2", transform=transforms)
+        
+        if conditional:
+            dataset = CondBuildDataset("./data/f3_patches100f3v2", transform=transforms)
+        else:
+            dataset = BuildDataset("./data/patches_f3_v3", transform=transforms)
 
     return dataset
 
