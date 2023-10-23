@@ -140,7 +140,7 @@ class CondBuildDataset(Dataset):
         return sample
 
 
-def get_dataset(dataset_name='MNIST', training_config=TrainingConfig):
+def get_dataset(dataset_name='MNIST', training_config=TrainingConfig, pre_load=False):
 
     size = training_config.IMG_SHAPE[-1]
     conditional = training_config.CONDITIONAL
@@ -176,7 +176,7 @@ def get_dataset(dataset_name='MNIST', training_config=TrainingConfig):
         if conditional:
             dataset = CondBuildDataset("./data/f3_patches100f3v2", transform=transforms)
         else:
-            dataset = BuildDataset("/data/patches_f3_v4", transform=transforms)
+            dataset = BuildDataset("/data/patches_f3_v4", transform=transforms, pre_load=pre_load)
 
     return dataset
 
@@ -186,9 +186,10 @@ def get_dataloader(dataset_name='MNIST',
                    pin_memory=False,
                    shuffle=True,
                    num_workers=0,
-                   device="cpu"
+                   device="cpu",
+                   pre_load=False,
                    ):
-    dataset = get_dataset(dataset_name=dataset_name)
+    dataset = get_dataset(dataset_name=dataset_name, pre_load=pre_load)
     dataloader = DataLoader(dataset, batch_size=batch_size,
                             pin_memory=pin_memory,
                             num_workers=num_workers,
