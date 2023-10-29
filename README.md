@@ -8,6 +8,7 @@ Repositorio oficial del proyecto de investigación VIE3925
 | --------- | -------- |
 | DDPM      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hdspgroup/SeismicEnhancement/blob/main/notebooks/diffusion/train_unconditional.ipynb)    |
 | VAE       | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hdspgroup/SeismicEnhancement/blob/main/notebooks/variational/train_vae.ipynb)    |
+| WGAN      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hdspgroup/SeismicEnhancement/blob/main/notebooks/adversarial/train_gan.ipynb)    |
 
 ---
 ![](/imgs/banner.png)
