@@ -1,3 +1,6 @@
+# training files
+inference_results/
+Logs_Checkpoints/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
