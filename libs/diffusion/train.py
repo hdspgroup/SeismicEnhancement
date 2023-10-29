@@ -17,8 +17,8 @@ from IPython.display import display, HTML, clear_output
 
 from .config import BaseConfig, TrainingConfig
 from .ddpm import forward_diffusion
-from .utils import get, frames2vid
-from .dataloader import inverse_transform
+from ..utils import get, frames2vid
+from ..dataloader import inverse_transform
 from PIL import Image
 
 import torchvision

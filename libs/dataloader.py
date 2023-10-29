@@ -13,7 +13,7 @@ import torchvision.datasets as datasets
 
 from torch.utils.data import Dataset, DataLoader
 from .utils import DeviceDataLoader
-from .config import TrainingConfig
+from .diffusion.config import TrainingConfig
 import numpy as np
 import os
 
@@ -183,7 +183,7 @@ def get_dataset(dataset_name='MNIST', training_config=TrainingConfig, pre_load=F
     elif dataset_name == "Seismic":
         
         if conditional:
-            dataset = CondBuildDataset("./data/f3_patches100f3v2", transform=transforms)
+            dataset = CondBuildDataset("/data/f3_patches100f3v2", transform=transforms)
         else:
             dataset = BuildDataset("/data/patches_f3_v4", transform=transforms, pre_load=pre_load)
 

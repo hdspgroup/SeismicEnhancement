@@ -9,7 +9,7 @@
 
 import os
 from dataclasses import dataclass
-from .utils import get_default_device
+from ..utils import get_default_device
 
 @dataclass
 class BaseConfig:

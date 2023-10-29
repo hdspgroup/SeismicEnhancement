@@ -8,7 +8,7 @@
 # -----------------------------------------------------------------------------
 
 import torch 
-from .utils import get
+from ..utils import get
 
 class SimpleDiffusion:
     def __init__(
