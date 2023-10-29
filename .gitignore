@@ -1,6 +1,7 @@
 # training files
 inference_results/
 Logs_Checkpoints/
+del_ini_filed.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
