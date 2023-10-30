@@ -1,3 +1,20 @@
+# -----------------------------------------------------------------------------
+# Original Source: Generative Adversarial Nets
+# Link: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+# -----------------------------------------------------------------------------
+# Description:
+# Generative Adversarial Networks
+# -----------------------------------------------------------------------------
+#
+# -----------------------------------------------------------------------------
+# Original Source: Improved training of Wasserstein GANs
+# GitHub Repository: Lornatang/WassersteinGAN_GP-PyTorch
+# Link: https://github.com/Lornatang/WassersteinGAN_GP-PyTorch
+# -----------------------------------------------------------------------------
+# Description:
+# Improved training of Wasserstein GANs
+# -----------------------------------------------------------------------------
+
 import torch
 from libs.adversarial.utils import get_gradient, gradient_penalty, get_crit_loss, get_gen_loss, calculate_gradient_penalty
 
