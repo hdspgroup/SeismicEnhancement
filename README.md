@@ -12,3 +12,26 @@ Repositorio oficial del proyecto de investigación VIE3925
 
 ---
 ![](/imgs/banner.png)
+
+
+### Installation of gempy libraries and visualization of a 3D geological model in Jupyter.
+
+Do it in six simple steps using Anaconda (open-source package and environment management system):
+
+1. Open the anaconda powershell prompt
+2. Install the virtual environment "gempy".
+NOTE: if it exists previously, you must remove it with: conda remove --name gempy --all
+>> conda create --name gempy python==3.10
+
+3. enter the created environment
+>> conda activate gempy
+
+4. Install theano 
+>> conda install theano
+
+5. Install gempy
+>> pip install gempy
+
+6. Install Jupyter
+>>pip install jupyterlab
+>>pip install notebook
