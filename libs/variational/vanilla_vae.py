@@ -1,3 +1,12 @@
+# -----------------------------------------------------------------------------
+# Original Source: Auto-Encoding Variational Bayes
+# GitHub Repository: AntixK/PyTorch-VAE
+# Link: https://github.com/AntixK/PyTorch-VAE
+# -----------------------------------------------------------------------------
+# Description:
+# A Collection of Variational Autoencoders (VAE) in PyTorch.
+# -----------------------------------------------------------------------------
+
 import torch
 from .base import BaseVAE
 from torch import nn
