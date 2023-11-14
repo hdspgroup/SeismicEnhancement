@@ -16,7 +16,7 @@ Repositorio oficial del proyecto de investigación VIE3925
 
 ### 3D Geological Modeling
 | Model     | Notebook |
-
+| --------- | -------- |
 
 #### Installation of gempy libraries and visualization of a 3D geological model in Jupyter
 
