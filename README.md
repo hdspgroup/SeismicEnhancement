@@ -15,10 +15,10 @@ Repositorio oficial del proyecto de investigación VIE3925
 
 
 ### 3D Geological Modeling
-**| Model     | Notebook |**
+| Model     | Notebook |
 
 
-## Installation of gempy libraries and visualization of a 3D geological model in Jupyter
+#### Installation of gempy libraries and visualization of a 3D geological model in Jupyter
 
 Do it in six simple steps using Anaconda (open-source package and environment management system):
 
