@@ -18,6 +18,9 @@ Repositorio oficial del proyecto de investigación VIE3925
 | Model     | Notebook |
 | --------- | -------- |
 | Normal Fault | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hdspgroup/SeismicEnhancement/blob/main/C%C3%B3digoBase.ipynb)|
+| Thrust Fault | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hdspgroup/SeismicEnhancement/blob/main/SinclinalSincelejo.ipynb)|
+| Folds and Faults | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hdspgroup/SeismicEnhancement/blob/main/GuajiraOff.ipynb)|
+
 
 #### Installation of gempy libraries and visualization of a 3D geological model in Jupyter
 
