@@ -13,30 +13,46 @@ Do it in six simple steps using Anaconda (open-source package and environment ma
 3. Install the virtual environment "gempy".
 NOTE: if it exists previously, you must remove it with:
 ```
->> conda remove --name gempy --all
+conda remove --name gempy --all
 ```
 ```
->> conda create --name gempy python==3.10
+conda create --name gempy python==3.10
 ```
 
-5. enter the created environment´´
-´´conda activate gempy´´
+5. enter the created environment
+```
+conda activate gempy
+```
 
-6. Install theano 
-´´conda install theano´´
+7. Install theano 
+```
+conda install theano
+```
 
-7. Install gempy
-´´pip install gempy==2.3.1´´
+8. Install gempy
+```
+pip install gempy==2.3.1
+```
 
-8. Install Jupyter
-´´pip install jupyterlab´´
-´´pip install notebook´´
+10. Install Jupyter
+```
+pip install jupyterlab
+```
+```
+pip install notebook
+```
 
-9. Install some dependencies for 3D visualization
-´´sudo apt install xorg xorg gcc libx11-dev libxt-dev libxext-dev make libtirpc-dev´´
-´´conda install -c conda-forge libstdcxx-ng´´
-´´conda install -c conda-forge libffi´´
+12. Install some dependencies for 3D visualization
 
+```
+sudo apt install xorg xorg gcc libx11-dev libxt-dev libxext-dev make libtirpc-dev
+```
+```
+conda install -c conda-forge libstdcxx-ng
+```
+```
+conda install -c conda-forge libffi
+```
 
 
 
