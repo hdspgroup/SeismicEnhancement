@@ -11,23 +11,28 @@ Do it in six simple steps using Anaconda (open-source package and environment ma
 2. Open the anaconda powershell prompt
 
 3. Install the virtual environment "gempy".
-NOTE: if it exists previously, you must remove it with: conda remove --name gempy --all
-´´conda create --name gempy python==3.10´´
+NOTE: if it exists previously, you must remove it with:
+```
+>> conda remove --name gempy --all
+```
+```
+>> conda create --name gempy python==3.10
+```
 
-4. enter the created environment´´
+5. enter the created environment´´
 ´´conda activate gempy´´
 
-5. Install theano 
+6. Install theano 
 ´´conda install theano´´
 
-6. Install gempy
+7. Install gempy
 ´´pip install gempy==2.3.1´´
 
-7. Install Jupyter
+8. Install Jupyter
 ´´pip install jupyterlab´´
 ´´pip install notebook´´
 
-8. Install some dependencies for 3D visualization
+9. Install some dependencies for 3D visualization
 ´´sudo apt install xorg xorg gcc libx11-dev libxt-dev libxext-dev make libtirpc-dev´´
 ´´conda install -c conda-forge libstdcxx-ng´´
 ´´conda install -c conda-forge libffi´´
