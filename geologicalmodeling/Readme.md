@@ -1,5 +1,5 @@
 
-# Gelogical-Numerical Modelling of emergent basins with GemPy
+# Gelogical modelling with GemPy
 hola, este es el repositorio para los modelos geologicos con GEMPY
 
 
