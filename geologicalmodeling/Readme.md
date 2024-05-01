@@ -1,5 +1,5 @@
 
-# Gelogical modelling with GemPy
+# Gelogical modeling with GemPy
 Geological modeling allows the identification of key structural and stratigraphic features that can host hydrocarbon accumulations in evolving basins, such as folds, faults, anticlines and stratigraphic traps. Therefore, in this section the basic functions of GemPy will be discussed to generate geological-numerical models with structural and stratigraphic complexity, integrating an analysis of quantitative techniques and metrics to determine their quality and reliability.
 
 #### Installation of gempy libraries and visualization of a 3D geological model in Jupyter Notebook
