@@ -56,7 +56,7 @@ conda install -c conda-forge libffi
 You can find more information in GemPy repository: https://github.com/gempy-project/gempy
 
 <p align="center">
-<img src="https://github.com/hdspgroup/SeismicEnhancement/blob/c5b83807e60b2b858a555fa01750c5bd55bc243e/geologicalmodeling/images/methodology.png" width="400">
+<img src="https://github.com/hdspgroup/SeismicEnhancement/blob/c5b83807e60b2b858a555fa01750c5bd55bc243e/geologicalmodeling/images/methodology.png" width="1000">
 </p>
 
 
