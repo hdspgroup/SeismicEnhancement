@@ -53,7 +53,7 @@ conda install -c conda-forge libstdcxx-ng
 conda install -c conda-forge libffi
 ```
 
-
+You can find more information in GemPy repository: https://github.com/gempy-project/gempy
 
 
 
