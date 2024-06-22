@@ -42,9 +42,12 @@ NOTE: if it exists previously, you must remove it with: conda remove --name gemp
 
 6. Install Jupyter
 >>pip install jupyterlab
+
 >>pip install notebook
 
 7. Install other dependencies
 >>sudo apt install xorg xorg gcc libx11-dev libxt-dev libxext-dev make libtirpc-dev
+
 >>conda install -c conda-forge libstdcxx-ng
+
 >>conda install -c conda-forge libffi
