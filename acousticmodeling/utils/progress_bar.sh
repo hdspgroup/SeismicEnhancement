@@ -1,0 +1,31 @@
+#!/bin/sh
+
+bar_size=40
+bar_char_done="#"
+bar_char_todo="-"
+bar_percentage_scale=2
+
+show_progress() {
+    current="$1"
+    total="$2"
+
+    # calculate the progress in percentage 
+    percent=$(echo "scale=$bar_percentage_scale; 100 * $current / $total" | bc)
+    # The number of done and todo characters
+    done=$(echo "scale=0; $bar_size * $percent / 100"  | bc)
+    todo=$(echo "scale=0; $bar_size - $done"  | bc)
+
+    # build the done and todo sub-bars
+    done_sub_bar=$(printf "%${done}s" | tr " " "${bar_char_done}")
+    todo_sub_bar=$(printf "%${todo}s" | tr " " "${bar_char_todo}")
+
+    # output the bar
+    clear
+    echo -ne "\rProgress : [${done_sub_bar}${todo_sub_bar}] ${percent}%"
+    
+
+    if [ $total -eq $current ]; then
+        echo "\nDONE"
+    fi
+}
+#export -f show_progress
